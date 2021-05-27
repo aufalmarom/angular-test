@@ -15,21 +15,21 @@ export class TestService {
     const mockData: Test[] = [];
 
     let save = new Test();
-    save.id = '1';
+    save.id = 1;
     save.value = 'Data Ji';
     mockData.push(save);
 
     save = new Test();
-    save.id = '2';
+    save.id = 2;
     save.value = 'Data Ro';
     mockData.push(save);
 
     save = new Test();
-    save.id = '3';
+    save.id = 3;
     save.value = 'Data Lu';
     mockData.push(save);
 
-    const resp = { 'status':200, 'message':'its oke', 'data': mockData};
+    const resp = { 'status':200, 'message':'OK', 'data': mockData};
     
     return of(new AppResponse(resp));
   }
