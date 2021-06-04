@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  text = 'zxcvbnMANDIRIoqkwmj';
+  text = '       MANDIRI       ';
+  
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(">>>"+this.text+"<<<");
   }
 
 }
