@@ -2,8 +2,6 @@ import { Injectable } from '@angular/core';
 import { Test } from '../test/shared/test';
 import { AppResponse } from '../shared/app-response.model';
 import { of } from 'rxjs';
-import { delay } from 'rxjs/operators';
-
 @Injectable({
   providedIn: 'root'
 })
